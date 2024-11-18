@@ -125,11 +125,3 @@ Explanation: This quote directly addresses the critics' sentiment, making it the
 This project is part of the **New Beginnings Project** for **Rutgers Enactus**, an initiative focused on supporting rehabilitated individuals as they reintegrate into society. By providing **personalized educational tools**, we aim to empower individuals to achieve their **GED certification** and gain the skills needed for brighter futures.
 
 The ultimate vision of this project is to expand beyond GED preparation, offering modules in practical areas such as **personal finance** and **basic law**, ensuring rehabilitated individuals are equipped with the knowledge they need to succeed.
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License. See `LICEN
-
-
