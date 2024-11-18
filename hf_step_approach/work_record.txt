@@ -1,0 +1,29 @@
+Referencing this video from Practical AI with Ramsri
+"Generate Multiple Choice Questions automatically using AI"
+https://youtu.be/EeGyoos6r-E?si=ElyKDkkguzUZS0k7
+
+
+
+Tools used:
+
+Python Keyphrase Extraction
+https://github.com/boudinfl/pke
+
+pke relies on spacy (>= 3.2.3) for text processing and requires models to be installed:
+# download the english model
+python -m spacy download en_core_web_sm
+
+
+https://huggingface.co/dslim/bert-large-NER
+bert-large-NER is a fine-tuned BERT model that is ready to use for Named Entity Recognition and achieves state-of-the-art performance for the NER task. It has been trained to recognize four types of entities: location (LOC), organizations (ORG), person (PER) and Miscellaneous (MISC).
+Specifically, this model is a bert-large-cased model that was fine-tuned on the English version of the standard CoNLL-2003 Named Entity Recognition dataset.
+
+https://www.ged.com/practice-test/en/rla/
+sample rla mcq questions
+
+Yes, you can throw all the summaries into another model and ask it to summarize them again to create a final cohesive summary. 
+This process is often referred to as hierarchical summarization and is a valid technique, especially for long texts or when summarizing multiple documents. 
+
+works to be done:
+1. implementing splitting 
+2. parallel api processing

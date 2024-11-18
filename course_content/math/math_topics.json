@@ -1,0 +1,69 @@
+{
+    "topics": [
+      {
+        "title": "Addition and Subtraction",
+        "description": "Learn fundamental techniques for adding and subtracting whole numbers, decimals, and fractions."
+      },
+      {
+        "title": "Multiplication and Division",
+        "description": "Master multiplication and division skills, including long division and working with decimals and fractions."
+      },
+      {
+        "title": "Converting Between Fractions, Decimals, and Percentages",
+        "description": "Understand how to convert between fractions, decimals, and percentages."
+      },
+      {
+        "title": "Solving Percentage Problems",
+        "description": "Learn methods for calculating percentages in various real-life scenarios."
+      },
+      {
+        "title": "Understanding Variables and Expressions",
+        "description": "An introduction to variables and expressions in algebra."
+      },
+      {
+        "title": "Solving Linear Equations",
+        "description": "Learn techniques for solving linear equations with one or two variables."
+      },
+      {
+        "title": "Understanding Inequalities",
+        "description": "Learn about inequalities and how to graph them on a number line."
+      },
+      {
+        "title": "Solving Inequalities",
+        "description": "Master methods for solving simple and compound inequalities."
+      },
+      {
+        "title": "2D Shapes",
+        "description": "Learn about properties of 2D shapes like circles, triangles, and quadrilaterals."
+      },
+      {
+        "title": "3D Shapes",
+        "description": "Introduction to 3D shapes, including volume and surface area calculations."
+      },
+      {
+        "title": "Calculating Perimeter and Area",
+        "description": "Understand how to calculate the perimeter and area of different shapes."
+      },
+      {
+        "title": "Calculating Volume",
+        "description": "Learn formulas to find the volume of 3D shapes like cubes, prisms, and cylinders."
+      },
+      {
+        "title": "Reading and Interpreting Graphs",
+        "description": "Learn how to interpret bar graphs, line graphs, and pie charts."
+      },
+      {
+        "title": "Statistical Measures",
+        "description": "Understanding mean, median, mode, and range."
+      },
+      {
+        "title": "Basic Probability Concepts",
+        "description": "Introduction to basic probability, including simple events and outcomes."
+      },
+      {
+        "title": "Independent and Dependent Events",
+        "description": "Learn the difference between independent and dependent events in probability."
+      }
+    ]
+  }
+  

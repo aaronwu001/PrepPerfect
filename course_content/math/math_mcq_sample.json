@@ -1,0 +1,123 @@
+[
+    {
+      "question_name": "Question 1",
+      "question_content": "11 yards 6 feet and 4 inches equals to how many inches?",
+      "choices": [
+        "A. 388",
+        "B. 468",
+        "C. 472",
+        "D. 476"
+      ],
+      "correct_choice": "C",
+      "explanation": "11 yards = 396 inches, 6 feet = 72 inches, and adding 4 gives 472 inches."
+    },
+    {
+      "question_name": "Question 2",
+      "question_content": "5 less than twice a positive integer is 83. What is the integer?",
+      "choices": [
+        "A. 39",
+        "B. 41",
+        "C. 42",
+        "D. 44"
+      ],
+      "correct_choice": "D",
+      "explanation": "Let x be the integer. Then: 2x - 5 = 83. Solving, x = 44."
+    },
+    {
+      "question_name": "Question 3",
+      "question_content": "A shirt costing $200 is discounted 15%. After a month, the shirt is discounted another 15%. Which of the following expressions can be used to find the selling price of the shirt?",
+      "choices": [
+        "A. (200) (0.70)",
+        "B. (200) – 200 (0.30)",
+        "C. (200) (0.15) – (200) (0.15)",
+        "D. (200) (0.85) (0.85)"
+      ],
+      "correct_choice": "D",
+      "explanation": "The selling price can be calculated by applying two successive discounts of 15%, yielding (200)(0.85)(0.85)."
+    },
+    {
+      "question_name": "Question 4",
+      "question_content": "Which of the following points lies on the line 2x + 4y = 10?",
+      "choices": [
+        "A. (2, 1)",
+        "B. (-1, 3)",
+        "C. (-2, 2)",
+        "D. (2, 2)"
+      ],
+      "correct_choice": "B",
+      "explanation": "Substitute each point into the equation 2x + 4y = 10. Only (-1, 3) satisfies it."
+    },
+    {
+      "question_name": "Question 6",
+      "question_content": "The price of a car was $20,000 in 2014, $16,000 in 2015 and $12,800 in 2016. What is the rate of depreciation of the price of the car per year?",
+      "choices": [
+        "A. 15%",
+        "B. 20%",
+        "C. 25%",
+        "D. 30%"
+      ],
+      "correct_choice": "B",
+      "explanation": "Calculate the rate of depreciation using the formula: (New Value - Old Value) / Old Value * 100%. Each decrease is 20%."
+    },
+    {
+      "question_name": "Question 7",
+      "question_content": "The width of a box is one third of its length. The height of the box is one third of its width. If the length of the box is 27 cm, what is the volume of the box?",
+      "choices": [
+        "A. 81 cm³",
+        "B. 162 cm³",
+        "C. 243 cm³",
+        "D. 729 cm³"
+      ],
+      "correct_choice": "D",
+      "explanation": "Volume = length * width * height. Substitute 27 cm for length, 9 cm for width, and 3 cm for height to get 729 cm³."
+    },
+    {
+      "question_name": "Question 8",
+      "question_content": "If 60% of A is 20% of B, then B is what percent of A?",
+      "choices": [
+        "A. 3%",
+        "B. 30%",
+        "C. 200%",
+        "D. 300%"
+      ],
+      "correct_choice": "D",
+      "explanation": "0.60A = 0.20B. Solving for B in terms of A, B = 3A, which is 300% of A."
+    },
+    {
+      "question_name": "Question 10",
+      "question_content": "A ladder leans against a wall forming a 60° angle between the ground and the ladder. If the bottom of the ladder is 30 feet away from the wall, how long is the ladder?",
+      "choices": [
+        "A. 30 feet",
+        "B. 40 feet",
+        "C. 50 feet",
+        "D. 60 feet"
+      ],
+      "correct_choice": "D",
+      "explanation": "In a 30°-60°-90° triangle, the hypotenuse is twice the length of the shorter leg, so the ladder is 60 feet."
+    },
+    {
+      "question_name": "Question 11",
+      "question_content": "When a number is subtracted from 24 and the difference is divided by that number, the result is 3. What is the value of the number?",
+      "choices": [
+        "A. 2",
+        "B. 4",
+        "C. 6",
+        "D. 12"
+      ],
+      "correct_choice": "C",
+      "explanation": "Let x be the number. Then (24 - x) / x = 3. Solving, x = 6."
+    },
+    {
+      "question_name": "Question 12",
+      "question_content": "An angle is equal to one fifth of its supplement. What is the measure of that angle?",
+      "choices": [
+        "A. 20°",
+        "B. 30°",
+        "C. 45°",
+        "D. 60°"
+      ],
+      "correct_choice": "B",
+      "explanation": "Let x be the angle. Then x + 5x = 180°. Solving, x = 30°."
+    }
+  ]
+  
