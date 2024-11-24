@@ -1,7 +1,7 @@
 import os
 import dotenv
-from article_summarize import summarize
-from paraphrase import paraphrase
+from hf_step_approach.article_summarize import summarize
+from hf_step_approach.paraphrase import paraphrase
 
 if __name__ == '__main__':
     # Obtain Huggingface Access Token

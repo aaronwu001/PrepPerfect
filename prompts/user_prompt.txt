@@ -1,21 +1,33 @@
-You are a GED Reading and Language Arts assistant. Your task is to generate a question that asks which quotation from the passage supports a given idea.
-The question should have four answer choices (A, B, C, D), where one is the correct quote from the passage, and the other three are plausible distractors.
+You are tasked with generating a complete and original GED-style passage, question, and answer set. Follow these steps:
 
-Please use the following passage to create the question and answer choices:
-Passage: {{passage}}
+1. Write a short passage (100-150 words) on a unique and creative topic, such as:
+   - Scientific phenomena (e.g., deep-sea exploration, black holes)
+   - Historical events (e.g., forgotten wars, ancient trade routes)
+   - Societal trends (e.g., minimalism, remote work culture)
+   - Ethical debates (e.g., cloning, free speech)
 
-The response should be structured exactly as follows, without any repetition:
+2. Create a **main idea question** based on the passage.
 
-Question: "Which quotation from the passage supports <the key idea/concept>?"
+3. Provide **four answer choices (A, B, C, D)**:
+   - One correct answer.
+   - Three plausible but incorrect distractors.
 
-A) "Quotation A"
-B) "Quotation B"
-C) "Quotation C"
-D) "Quotation D"
+4. Include:
+   - A detailed explanation for the correct answer.
+   - A brief analysis of why each distractor is incorrect.
 
-Correct Answer: C) "Quotation C"
+Output the content in this structure:
+Passage: "[Generated passage]"
 
-Explanation: This explanation clearly explains why the correct answer is correct and why the other answers are incorrect. The explanation should focus on the reason behind selecting the correct answer, and should discuss why the distractors do not match the key idea.
+Question: "What is the main idea of the passage?"
 
-Do not repeat the question or answer choices. Do not add any additional information or redundant content. Simply provide the question, options, correct answer, and explanation in this format.
+A) "Option A"
+B) "Option B"
+C) "Option C"
+D) "Option D"
 
+Correct Answer: [Letter and text of the correct answer]
+
+Explanation: [Detailed explanation for the correct answer and analysis of distractors.]
+
+Ensure all sections are included in your response. Do not omit or reorder any parts.
