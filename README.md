@@ -1,124 +1,120 @@
-# PrepEmpower: AI-Powered Practice Test Platform for GED Preparation
+# PrepEmpower: GED RLA Question Generation
 
-PrepEmpower is an AI-driven practice test platform designed to help rehabilitated individuals prepare for their **GED (General Educational Development)** certification. This project is part of my contribution to the **New Beginnings Project** for **Rutgers Enactus**, which aims to support individuals in their journey toward reintegration into society through education and skill development.
+## Overview
 
-The platform focuses on creating dynamic and personalized practice tests using **OpenAI's API**, starting with **GED Reading and Language Arts (RLA)**. It is designed to make GED preparation accessible and effective while leveraging the power of artificial intelligence.
+This project processes a PDF containing GED RLA multiple-choice questions and generates new GED-style questions in a structured JSON format, suitable for frontend integration. The system leverages OpenAI's GPT models for question generation with rigorous formatting and diverse question types.
 
----
+## Features
 
-## 🚀 Project Vision
-
-### Why PrepEmpower?
-- **Empowering Education**: Provide rehabilitated individuals with the tools they need to achieve their GED certification.
-- **AI-Powered Learning**: Harness the power of AI to generate engaging, high-quality practice questions.
-- **Scalable Impact**: Expand the system to other GED courses and practical topics, such as **personal finance** and **basic law**, to support a broader range of educational needs.
-
-### Goals:
-1. **GED Practice Tests**:
-   - Build personalized practice tests for all GED subjects, starting with RLA.
-2. **Expand Educational Modules**:
-   - Develop content for personal finance, basic law, and other practical life skills.
-3. **Rehabilitation Through Education**:
-   - Create accessible tools that empower individuals for brighter futures.
+- **PDF Processing:** Extracts text from GED RLA PDF documents.
+- **AI-Powered Generation:** Utilizes OpenAI's GPT models for question creation.
+- **Custom Parsing:** Outputs JSON-formatted questions for easy integration.
+- **Scalable Design:** Focused on GED RLA but adaptable to other domains.
 
 ---
 
-## 📋 Current Status
+## How to Run
 
-### Progress So Far:
-- **Completed**:
-  - **RLA Module (In Progress)**:
-    - Developed one question type: **"Which quotation from the passage supports a given idea?"**
-    - Dynamically generates questions using OpenAI's GPT-4 API.
-- **Work in Progress**:
-  - Expanding to additional question types (e.g., inference, vocabulary-in-context).
-  - Exploring scalable approaches for other GED courses.
+1. **Install Dependencies: Make sure Python 3.x is installed. Install the required packages:**
 
-### Future Goals:
-1. **Complete RLA Question Types**:
-   - Add support for inference, main idea identification, and other critical question types.
-2. **Expand to Other GED Subjects**:
-   - Start creating practice tests for Math, Science, and Social Studies.
-3. **Develop Practical Modules**:
-   - Build modules for personal finance and legal basics to support life skills education.
-4. **Mock Test Integration**:
-   - Combine generated questions into full-length mock GED tests.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
----
+2. **Set OpenAI API Key:**
 
-## 🛠️ How to Use (updated Nov. 18th 2024)
+   - Copy .env.example to .env
 
-### 1. Prepare Inputs
-- Place the passage you want to use for question generation in the `passages/` directory (e.g., `passage1.txt`).
-- Define the prompts for AI in the `prompts/` directory:
-  - `system_prompt.txt`: Provides the context and role for the AI assistant.
-  - `user_prompt.txt`: Defines the task and formatting for the questions.
+   ```bash
+   cp .env.example .env
+   ```
 
-### 2. Add Your OpenAI API Key
-Create a `.env` file in the root directory and add your OpenAI API key:
-```plaintext
-OPENAI_API_KEY=your_openai_api_key
+   - Add your OpenAI API key to the .env file:
+
+   ```bash
+   OPENAI_API_KEY=your-api-key
+   ```
+
+3. **Run The Main Script**
+
+   - Place your GED RLA PDF file in the materials/ folder.
+
+   ```bash
+   python mcq_from_sample.py
+   ```
+
+4. **View The Output**
+   - Generated questions will be saved in the output/ folder as:
+     questions_string.txt (raw questions)
+     parsed_questions.json (structured JSON)
+
+## Folder Structure
+
+```
+project/
+├── materials/          # Input PDFs and related content
+├── old_approaches/     # Previous methodologies
+├── output/             # Generated questions and JSON outputs
+├── mcq_from_sample.py  # Main script for question generation
+├── parse.py            # Parsing script for structured JSON
+└── .env.example        # Environment variable example file
 ```
 
-### 3. Run the Program 
-Execute the main script using:
-```bash
-python main.py
-```
+## Approaches
 
-### 4. Review the Output
-The program will generate a GED-style question based on the provided passage and prompts. Example output:
-```plaintext
-Generated Question:
-Which quotation from the passage supports the idea that the fight was not well-received by critics?
+1. **Initial Attempts:**
+   - Explored Hugging Face models but faced input size limitations and complexity.
+   - Attempted chunking articles, extracting keywords, and generating questions with distractors.
+   - Abandoned due to inefficiencies.
+2. **Passage-Based Questions:**
+   - Generated questions from single passages but required manual passage collection.
+3. **Free Generation:**
+   - Prompted for random questions but suffered from topic repetition and limited diversity in question types.
+4. **Current Approach:**
+   - Reads GED RLA guides, extracts question patterns, and generates diverse questions with balanced formats.
 
-A) "Quotation A"
-B) "Quotation B"
-C) "Quotation C"
-D) "Quotation D"
+## Challenges
 
-Correct Answer: C) "Quotation C"
-Explanation: This quote directly addresses the critics' sentiment, making it the best choice.
-```
+- **Consistency:** Ensuring JSON output is rigorous and reliable.
+- **Repetition Avoidance:** Managing diverse topics and question types without manual intervention.
+- **Prompt Engineering:** Fine-tuning prompts for clear instructions and consistent outputs.
 
-## 🌟 Key Features
+## Dependencies
 
-1. **Dynamic Placeholder Replacement**:
-   - Uses `{{text}}` variables in the prompts, dynamically replaced with passage content for flexibility and reusability.
+- Python 3.x
+- Required packages: openai, python-dotenv, pdfplumber
+  Install dependencies with:
+  `bash
+pip install -r requirements.txt
+`
 
-2. **AI-Powered Question Generation**:
-   - Generates high-quality, multiple-choice GED questions tailored to the input passage using OpenAI's API.
+## Future Enhancements
 
-3. **Scalability**:
-   - Easily extendable to other GED subjects (Math, Science, and Social Studies) and additional question types.
+- Automate topic and type tracking for balanced question generation.
+- Extend functionality to other exam formats and subjects.
+- Randomize topic selection while avoiding repetitions.
 
-4. **Practice-Focused**:
-   - Designed to provide targeted practice for rehabilitated individuals working toward GED certification.
+## Further Context
 
-5. **Educational Impact**:
-   - Supports the development of essential skills, empowering individuals with practical and actionable learning tools.
+### Key Insights from Old Approaches
 
----
+1. Hugging Face APIs:
 
-## 📈 Project Updates
+   - Initially used Hugging Face APIs but found no suitable models that could handle large GED RLA-style input scripts.
+   - Experimented with chunking, keyword extraction, and creating distractors, but this was time-consuming and inefficient.
 
-### Current Progress:
-- **Completed**:
-  - Implemented question generation for one type of GED RLA question: **"Which quotation from the passage supports a given idea?"** using OpenAI's API.
-- **In Progress**:
-  - Expanding to additional question types for RLA, such as inference and vocabulary-based questions.
+2. Passage Collection:
 
-### Upcoming Goals:
-1. **Additional Question Types**:
-   - Develop and integrate more question types for GED Reading and Language Arts.
-2. **Extend to Other GED Subjects**:
-   - Begin developing practice tests for Math, Science, and Social Studies.
-3. **Mock Exam Integration**:
-   - Combine generated questions into full-length practice tests for a comprehensive preparation experience.
-4. **User Feedback and Testing**:
-   - Pilot the system with rehabilitated individuals to refine and improve the educational modules.
+   - Tried generating a single question (e.g., about the main idea) for each passage. This worked but required continuous collection of new passages, which was impractical.
 
----
+3. Free Generation:
+   - Attempted free generation by instructing the model to create GED RLA-style MCQs. This approach had issues with:
+     - Repetition of topics mentioned in the prompt.
+     - Limited diversity, focusing mostly on "main idea" questions.
+
+### Current Approach
+
+The current solution reads sample questions from the official GED RLA guide. By analyzing patterns and question types in the guide, the system generates consistent and diverse questions with a balance between passage-based and non-passage-based types. This approach ensures high-quality output while minimizing manual effort.
 
 ## 🤝 Contribution to Rutgers Enactus
 

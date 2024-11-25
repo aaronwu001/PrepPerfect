@@ -1,0 +1,68 @@
+- **Question Type:** Reading for Meaning  
+- **Question:** What is the main idea of the passage?  
+- **Passage:**  
+In the heart of the city, a community garden flourished, transforming a once-abandoned lot into a vibrant oasis. Residents gathered every week to cultivate their plots, sharing seeds, tools, and recipes while fostering friendships. The garden not only provided fresh produce but also promoted environmental stewardship, as members learned about sustainable practices and biodiversity. Children often played nearby, inspired by the beauty of nature that surrounded them. Additionally, the garden hosted seasonal festivals that brought together diverse cultures, showcasing various cuisines and traditions. This space became a symbol of resilience, demonstrating how collective effort could rejuvenate a neighborhood.  
+- **Options:**  
+  - A. Community gardens are costly to maintain.  
+  - B. Abandoned lots are often dangerous places.  
+  - C. A community comes together through shared interests in gardening.  
+  - D. Urban farming reduces the need for grocery stores.  
+- **Correct Answer:** C.  
+- **Explanation:** The passage focuses on how the community garden serves as a space for neighbors to unite, share resources, and foster friendships. Options A and B do not capture the essence of the message. Option D introduces a concept not supported by the passage.
+
+---
+
+- **Question Type:** Grammar and Language  
+- **Question:** Choose the option that correctly completes the following sentence.  
+The committee will review the data and finalize their decision __________ they receive all necessary inputs.  
+- **Passage:** None.  
+- **Options:**  
+  - A. soon as  
+  - B. as soon as  
+  - C. so soon as  
+  - D. soon than  
+- **Correct Answer:** B.  
+- **Explanation:** "As soon as" is the correct phrase to indicate the timing of the committee's action conditional on receiving inputs. Option A is incomplete, and C uses an incorrect structure. Option D is not standard English.
+
+---
+
+- **Question Type:** Tone and figurative language  
+- **Question:** What tone is conveyed in the excerpt?  
+- **Passage:**  
+The ancient trees stood tall, their gnarled branches reaching high into the sky, a testimony to the passage of time. Each leaf whispered secrets of history, swaying gently in the breeze. As the sun peeked through the dense foliage, it cast a mystical glow on the forest floor, illuminating forgotten paths. The air was thick with the earthy scent of moss and damp soil, heightening the senses and drawing one deeper into the heart of nature’s embrace.  
+- **Options:**  
+  - A. Foreboding  
+  - B. Nostalgic  
+  - C. Joyful  
+  - D. Indifferent  
+- **Correct Answer:** B.  
+- **Explanation:** The passage evokes a nostalgic tone through its imagery of ancient trees and whispers of history. It reflects on the beauty and mystery of the forest. Options A and C do not match the overall sentiment, and option D describes a disengaged tone, which is inaccurate.
+
+---
+
+- **Question Type:** Identifying and Creating Arguments  
+- **Question:** What is the purpose of the petition presented in the passage?  
+- **Passage:**  
+To: U.S. Congress  
+We, the undersigned, petition the government to enact stricter regulations on industrial emissions. The air we breathe is increasingly polluted, affecting public health and contributing to climate change. Our communities deserve cleaner air, and to achieve this, we must hold corporations accountable for their environmental impact. Effective regulations not only ensure the health of citizens but also pave the way for sustainable development. We urge Congress to prioritize this issue by implementing actionable policies.  
+- **Options:**  
+  - A. To encourage businesses to increase production.  
+  - B. To request the government improve transportation infrastructure.  
+  - C. To demand greater accountability for environmental pollution.  
+  - D. To highlight achievements in industrial growth.  
+- **Correct Answer:** C.  
+- **Explanation:** The petition clearly calls for governmental action to regulate industrial emissions, holding corporations accountable for pollution. Options A and D are contrary to the petition's intent, and B is irrelevant to the focus on air quality.
+
+---
+
+- **Question Type:** Word usage  
+- **Question:** Choose the correctly punctuated completion for the sentence below.  
+The report needs to be submitted by Friday ______ it includes feedback from all team members.  
+- **Passage:** None.  
+- **Options:**  
+  - A. or else  
+  - B. unless  
+  - C. because  
+  - D. but  
+- **Correct Answer:** C.  
+- **Explanation:** "Because" correctly links the deadline for submission to the condition of including feedback from team members. "Or else" implies a consequence that is not specified, "unless" contradicts the intended meaning, and "but" creates an ineffective contrast.
