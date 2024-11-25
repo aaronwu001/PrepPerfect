@@ -1,8 +1,18 @@
-# PrepEmpower: GED RLA Question Generation
+# PrepPerfect: GED RLA Question Generation
 
 ## Overview
 
 This project processes a PDF containing GED RLA multiple-choice questions and generates new GED-style questions in a structured JSON format, suitable for frontend integration. The system leverages OpenAI's GPT models for question generation with rigorous formatting and diverse question types.
+
+---
+
+## Contribution to Rutgers Enactus
+
+This project is part of the **New Beginnings Project** for Rutgers Enactus, an initiative focused on supporting rehabilitated individuals as they reintegrate into society. By providing personalized educational tools, the project empowers individuals to achieve their GED certification and gain skills for brighter futures.
+
+The ultimate vision is to expand beyond GED preparation by offering modules in practical areas such as personal finance and basic law, ensuring rehabilitated individuals are equipped with essential life skills to succeed.
+
+---
 
 ## Features
 
@@ -48,6 +58,8 @@ This project processes a PDF containing GED RLA multiple-choice questions and ge
      questions_string.txt (raw questions)
      parsed_questions.json (structured JSON)
 
+---
+
 ## Folder Structure
 
 ```
@@ -59,6 +71,8 @@ project/
 ├── parse.py            # Parsing script for structured JSON
 └── .env.example        # Environment variable example file
 ```
+
+---
 
 ## Approaches
 
@@ -73,11 +87,15 @@ project/
 4. **Current Approach:**
    - Reads GED RLA guides, extracts question patterns, and generates diverse questions with balanced formats.
 
+---
+
 ## Challenges
 
 - **Consistency:** Ensuring JSON output is rigorous and reliable.
 - **Repetition Avoidance:** Managing diverse topics and question types without manual intervention.
 - **Prompt Engineering:** Fine-tuning prompts for clear instructions and consistent outputs.
+
+---
 
 ## Dependencies
 
@@ -88,6 +106,8 @@ project/
 pip install -r requirements.txt
 `
 
+---
+
 ## Future Enhancements
 
 - Automate topic and type tracking for balanced question generation.
@@ -95,6 +115,8 @@ pip install -r requirements.txt
 - Randomize topic selection while avoiding repetitions.
 
 ## Further Context
+
+---
 
 ### Key Insights from Old Approaches
 
@@ -115,9 +137,3 @@ pip install -r requirements.txt
 ### Current Approach
 
 The current solution reads sample questions from the official GED RLA guide. By analyzing patterns and question types in the guide, the system generates consistent and diverse questions with a balance between passage-based and non-passage-based types. This approach ensures high-quality output while minimizing manual effort.
-
-## 🤝 Contribution to Rutgers Enactus
-
-This project is part of the **New Beginnings Project** for **Rutgers Enactus**, an initiative focused on supporting rehabilitated individuals as they reintegrate into society. By providing **personalized educational tools**, we aim to empower individuals to achieve their **GED certification** and gain the skills needed for brighter futures.
-
-The ultimate vision of this project is to expand beyond GED preparation, offering modules in practical areas such as **personal finance** and **basic law**, ensuring rehabilitated individuals are equipped with the knowledge they need to succeed.
